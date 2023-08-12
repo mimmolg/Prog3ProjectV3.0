@@ -1,0 +1,25 @@
+corriere,GLS
+veicolo,6705B6D5,FURGONE,774,GLS
+veicolo,7CFAD856,CAMION,641,GLS
+veicolo,58672153,AUTOCARRO,451,GLS
+veicolo,842AB139,FURGONE,111,GLS
+veicolo,2C7C8FE8,CAMION,300,GLS
+destinatario,Mario,Rossi,Via Roma 17,mariorossi@gmail.com,a12345
+destinatario,Giovanni,Verdi,Via Campana 20,giovanniverdi@gmail.com,b12345
+destinatario,Martina,Carta,Via Piombo 26,martinacarta@gmail.com,c12345
+destinatario,Mattia,Ranno,Via Rocca Forte 255,mattiaranno@gmail.com,d12345
+destinatario,Jessica,Rana,Via Napoli 221,jessica@gmail.com,e12345
+collo,GLS01,Alfredo,jessica@gmail.com,200,10937660
+collo,GLS02,Mario,giovanniverdi@gmail.com,500,10837660
+collo,GLS03,Carlo,mariorossi@gmail.com,600,10936660
+collo,GLS04,Giovanna,mattiaranno@gmail.com,451,11137660
+collo,GLS05,Angelo,martinacarta@gmail.com,299,10943650
+collo,GLS06,Marianna,mariorossi@gmail.com,200,10937454
+collo,GLS07,Veronica,mariorossi@gmail.com,200,10935416
+collo,GLS08,Antonio,mariorossi@gmail.com,200,42389536
+
+
+
+
+
+
