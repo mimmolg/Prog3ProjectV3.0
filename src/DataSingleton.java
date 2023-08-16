@@ -10,7 +10,7 @@
  * @see CentroDiSmistamento
  */
 public class DataSingleton {
-    private static DataSingleton istance;
+    private static DataSingleton instance;
     private FileManager fileManager;
 
     /**
@@ -31,10 +31,10 @@ public class DataSingleton {
      * @return L'unica istanza di {@link DataSingleton}.
      */
     public static DataSingleton getInstance() {
-        if (istance == null) {
-            return new DataSingleton();
+        if (instance == null) {
+            instance = new DataSingleton();
         }
-        return istance;
+        return instance;
     }
     /**
      * Restituisce l'oggetto {@link FileManager} associato al Singleton.

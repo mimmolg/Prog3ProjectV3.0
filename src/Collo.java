@@ -6,7 +6,7 @@
  * flessibile tra vari stati durante il ciclo di spedizione.
  * Il pattern State consente a un oggetto di cambiare il suo comportamento quando il suo stato interno cambia.
  * In questo contesto, il 'Collo' può trovarsi in vari stati durante il suo ciclo di spedizione (es. Ritiro, InTransito, Consegnato, ecc.)
- * e il comportamento associato a ciascuno stato è definito nelle implementazioni concrete dell'interfaccia {@link StatoCollo}.
+ * E il comportamento associato a ciascuno stato è definito nelle implementazioni concrete dell'interfaccia {@link StatoCollo}.
  * @see StatoCollo
  */
 public class Collo {
