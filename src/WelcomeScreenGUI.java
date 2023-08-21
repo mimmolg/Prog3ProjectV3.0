@@ -51,7 +51,7 @@ public class WelcomeScreenGUI extends JFrame {
         FileManager fileManager = DataSingleton.getInstance().getFileManager();
         Map<String, Corriere> corriereMap = fileManager.getCorriereMap();
         for (Corriere c : corriereMap.values()) {
-            c.aggiornaStatoColli();
+            c.scheduleUpdate();
         }
         dispose();
         new LoginScreenGUI();

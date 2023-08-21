@@ -24,7 +24,7 @@ public class Corriere {
     private ScheduledExecutorService scheduledExecutorService; //può programmare comandi da eseguire dopo un determinato ritardo o per essere eseguiti periodicamente
 
     /**
-     * Costruisce un nuovo oggetto Corriere con un dato nome e pianifica gli aggiornamenti periodici dello stato dei colli.
+     * Costruisce un nuovo oggetto Corriere con un dato nome
      * @param nome il nome del Corriere.
      */
     public Corriere(String nome) {
@@ -33,16 +33,15 @@ public class Corriere {
         this.veicoli = new ArrayList<>();
         this.mappaColliInVecoli = new HashMap<>();
         this.scheduledExecutorService = Executors.newScheduledThreadPool(1);
-        scheduleUpdate();
     }
 
     /**
      * Pianifica un task periodico per aggiornare lo stato dei colli gestiti dal corriere.
      */
-    private void scheduleUpdate() {
+    public void scheduleUpdate() {
         scheduledExecutorService.scheduleAtFixedRate(() -> {
             aggiornaStatoColli();
-        }, 20, 60, TimeUnit.SECONDS);
+        }, 50, 60, TimeUnit.SECONDS);
     }
 
     /**
