@@ -49,7 +49,7 @@ public class Corriere {
      * Questo metodo sincronizza l'accesso alla mappa dei colli e avanza lo stato di
      * ogni collo alla sua prossima fase, seguendo il pattern State.
      */
-    public void aggiornaStatoColli() {
+    private void aggiornaStatoColli() {
         synchronized (mappaColliInVecoli) {
             for (Collo c : mappaColliInVecoli.keySet()) {
                 c.prossimoStato();
